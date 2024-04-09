@@ -1,13 +1,15 @@
+import { CircleUserRound, FileCheck2, LayoutDashboard, MapPinned, MessageCircleQuestion, NotebookText, Star } from "lucide-react";
+
 export const sidebar_menu = [
     {
         name : "Dashboard",
-        icon : "",
+        icon : <LayoutDashboard />,
         path : "/dashboard",
         submenu : []
     },
     {
         name : "Contents",
-        icon : "",
+        icon : <FileCheck2 />,
         path : "/contents",
         submenu : [
             {
@@ -22,7 +24,7 @@ export const sidebar_menu = [
     },
     {
         name : "Holidays",
-        icon : "",
+        icon : <MapPinned />,
         path : "/holidays",
         submenu : [
             {
@@ -37,31 +39,31 @@ export const sidebar_menu = [
     },
     {
         name : "Bookings",
-        icon : "",
+        icon : <NotebookText />,
         path : "/bookings",
         submenu : []
     },
     {
         name : "Services",
-        icon : "",
+        icon : <FileCheck2 />,
         path : "/services",
         submenu : []
     },
     {
         name : "User Profile",
-        icon : "",
+        icon : <CircleUserRound />,
         path : "/user-profile",
         submenu : []
     },
     {
         name : "Queries",
-        icon : "",
+        icon : <MessageCircleQuestion />,
         path : "/queries",
         submenu : []
     },
     {
         name : "Reviews",
-        icon : "",
+        icon : <Star />,
         path : "/reviews",
         submenu : []
     },

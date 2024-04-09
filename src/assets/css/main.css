@@ -1,0 +1,36 @@
+.sidebarMenuOptionContainer {
+  overflow: hidden;
+}
+.sidebarMenuOptionContainer .parent-sidebar-navlink.active .sidebar-navlink {
+  position: relative;
+}
+.sidebarMenuOptionContainer .parent-sidebar-navlink.active .sidebar-navlink::after {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  content: "";
+  height: 20px;
+  width: 5px;
+  border-radius: 4px;
+  border-radius: 8px 8px;
+  background: var(--Accent, #235789);
+}
+.sidebarMenuOptionContainer .sidebar-navlink {
+  height: 56px;
+  padding: 8px 20px;
+  width: 100%;
+  color: var(--Text, #60677F);
+  display: flex;
+  align-items: center;
+}
+.sidebarMenuOptionContainer .accordion.accordion-flush .accordion-item .accordion-button {
+  display: flex;
+  box-shadow: none;
+  color: var(--Text, #60677F);
+}
+.sidebarMenuOptionContainer .accordion.accordion-flush .accordion-item .accordion-body {
+  background-color: rgba(143, 103, 182, 0.06);
+}
+.sidebarMenuOptionContainer .accordion.accordion-flush .accordion-item .accordion-body .sidebar-sub-navlink.active li {
+  color: #235789 !important;
+}/*# sourceMappingURL=main.css.map */
