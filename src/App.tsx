@@ -4,6 +4,9 @@ import './assets/css/main.css';
 import './assets/css/home.css';
 import Playground from './component/playground';
 import Dashboard from "./pages/dashboard";
+import HolidayTypes from "./pages/holidays/types";
+import HolidayDestination from "./pages/holidays/destination";
+
 const App = () => {
   return (<>
   
@@ -11,6 +14,9 @@ const App = () => {
     <Routes>
         <Route path='/' element={<Dashboard />} />
         <Route path='/dashboard' element={<Dashboard />} />
+        <Route path='/holiday/types' element={<HolidayTypes />} />
+        <Route path='/holiday/destination' element={<HolidayDestination />} />
+
       </Routes>
     </Playground>
   

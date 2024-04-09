@@ -6,6 +6,7 @@ export const webColors = {
 "accent": "#235789",
 "primary": "#235789",
 "primary-light": "#EEF7FF",
+"primary-100": "#E3E8FD",
 "text" : "#60677F",
 "secondary": "#C22932",
 "success-500": "#03BE7A",

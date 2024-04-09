@@ -29,11 +29,11 @@ export const sidebar_menu = [
         submenu : [
             {
                 name:"Holiday Types",
-                path : "/holiday-types",
+                path : "/holiday/types",
             },
             {
-                name:"Holiday Types",
-                path : "/holiday-types",
+                name:"Holiday Destination",
+                path : "/holiday/destination",
             },
         ]
     },
