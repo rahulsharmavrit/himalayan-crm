@@ -16,6 +16,7 @@ export const webColors = {
 "color-light-success": "#E2FBD7",
 "colors-black-100": "#000000",
 "primary-500": "#082D4A",
+"neutral-grey-200": "#DBDBDC",
 "neutral-grey-500": "#86888A",
 "neutral-grey-800": "#363637"
 };

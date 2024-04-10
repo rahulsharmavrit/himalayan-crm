@@ -1,36 +1,143 @@
-.sidebarMenuOptionContainer {
-  overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.sidebarMenuOptionContainer .parent-sidebar-navlink.active .sidebar-navlink {
-  position: relative;
+
+:root {
+  --primary-100: #D6EBFB;
+  --primary-500: #082D4A;
+  --gray-400: #B6B8B9;
+  --gray-500: #86888A;
 }
-.sidebarMenuOptionContainer .parent-sidebar-navlink.active .sidebar-navlink::after {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  content: "";
-  height: 20px;
-  width: 5px;
-  border-radius: 4px;
-  border-radius: 8px 8px;
-  background: var(--Accent, #235789);
+
+/* cursor */
+.cursor-pointer {
+  cursor: pointer;
 }
-.sidebarMenuOptionContainer .sidebar-navlink {
-  height: 56px;
-  padding: 8px 20px;
-  width: 100%;
-  color: var(--Text, #60677F);
-  display: flex;
-  align-items: center;
+
+/* font */
+.fs-14-400 {
+  font-size: 14px;
+  font-weight: 400;
 }
-.sidebarMenuOptionContainer .accordion.accordion-flush .accordion-item .accordion-button {
-  display: flex;
-  box-shadow: none;
-  color: var(--Text, #60677F);
+
+.fs-14-500 {
+  font-size: 14px;
+  font-weight: 500;
 }
-.sidebarMenuOptionContainer .accordion.accordion-flush .accordion-item .accordion-body {
-  background-color: rgba(143, 103, 182, 0.06);
+
+.fs-14-600 {
+  font-size: 14px;
+  font-weight: 600;
 }
-.sidebarMenuOptionContainer .accordion.accordion-flush .accordion-item .accordion-body .sidebar-sub-navlink.active li {
-  color: #235789 !important;
+
+.fs-16-400 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fs-16-500 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fs-16-600 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.fs-18-400 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.fs-18-500 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fs-18-600 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fs-20-400 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.fs-20-500 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.fs-20-600 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fs-22-400 {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.fs-22-500 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.fs-22-600 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.fs-24-400 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.fs-24-500 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.fs-24-600 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fs-24-700 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fs-26-400 {
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.fs-26-500 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.fs-26-600 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.fs-32-400 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.fs-32-500 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.fs-32-600 {
+  font-size: 32px;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */

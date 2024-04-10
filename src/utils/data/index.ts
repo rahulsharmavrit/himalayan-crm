@@ -29,6 +29,15 @@ export const democolumns: GridColDef<(typeof demorows)[number]>[] = [
       width: 160,
       valueGetter: (value, row) => `${row.firstName || ''} ${row.lastName || ''}`,
     },
+    {
+      field: 'action',
+      headerName: 'Action',
+      description: 'This column has a value getter and is not sortable.',
+      sortable: false,
+      width: 160,
+      // valueGetter: (value, row) => (`${row.firstName || ''} ${row.lastName || ''}`),
+      renderCell : (params:any) =>(params.value)
+    },
   ];
 
 export const demorows = [

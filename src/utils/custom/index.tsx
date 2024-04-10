@@ -16,6 +16,19 @@ export const PrimaryButton = styled(Button)({
      },
 });
 
+export const SecondaryButton = styled(Button)({
+    backgroundColor: webColors["secondary-red"],
+    color : "white",
+    fontWeight: "500",
+    fontSize: "14px",
+    borderRadius:'8px',
+    height :"48px",
+    '&:hover': {
+        background: webColors["secondary-red"],
+        color : 'white'
+     },
+});
+
 export const LightButton = styled(Button)({
   backgroundColor: webColors["primary-light"],
   color : webColors['text'],
@@ -112,18 +125,18 @@ export const LightButton = styled(Button)({
 // }));
 
 
-// export const ErrorOutlineButton = styled(Button)({
-//    border: `1px solid ${webColors.error[500]}`,
-//    color : webColors.error[500],
-//    fontWeight: "500",
-//    fontSize: "14px",
-//    borderRadius:'6px',
-//    height :"48px",
-//    background: 'transparent',
-//    '&:hover': {
-//       color : 'white',
-//        background: webColors.error[500],
+export const ErrorOutlineButton = styled(Button)({
+   border: `1px solid ${webColors['neutral-grey-200']}`,
+   color : webColors['neutral-grey-200'],
+   fontWeight: "500",
+   fontSize: "14px",
+   borderRadius:'6px',
+   height :"48px",
+   background: 'transparent',
+   '&:hover': {
+      color : 'white',
+       background: webColors['neutral-grey-200'],
        
-//     },
-// });
+    },
+});
 
